@@ -27,7 +27,7 @@ const Couples = () => {
 
         <h1 className="text-white font-Bree text-3xl">Mempelai</h1>
         {/* Mempelai Card */}
-        <div className="max-w-xl  w-full min-h-screen flex flex-col md:max-w-4xl md:flex-row gap-10 justify-center mb-24 items-center">
+        <div className="max-w-xl  w-full min-h-screen flex flex-col md:max-w-4xl md:flex-row gap-10 justify-center items-center">
           <div className="w-full h-[500px] md:h-[700px] md:justify-center md:gap-4 bg-primary rounded-xl border-[3px] border-whites shadow-lg p-12 flex flex-col items-center justify-start gap-2">
             <AnimationOnScroll
               animateIn="animate__fadeInDown"
@@ -75,6 +75,63 @@ const Couples = () => {
             </AnimationOnScroll>
           </div>
         </div>
+        <section className="py-6 bg-third/30 rounded-xl mb-20">
+          <h1 className="text-white text-3xl md:text-6xl font-Bree text-center">
+            GALLERY
+          </h1>
+          <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+            <img
+              src="https://source.unsplash.com/random/301x301/"
+              alt=""
+              className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?0"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?1"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?2"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?3"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?4"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?5"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?6"
+            />
+            <img
+              alt=""
+              className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+              src="https://source.unsplash.com/random/200x200/?7"
+            />
+            <img
+              src="https://source.unsplash.com/random/302x302/"
+              alt=""
+              className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square"
+            />
+          </div>
+        </section>
       </div>
     </div>
   );
